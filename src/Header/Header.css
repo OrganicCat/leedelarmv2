@@ -1,0 +1,18 @@
+.title-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: var(--main-text);
+}
+
+.content-header {
+    max-width: 1000px;
+    padding: 2.5rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-text {
+    padding-left: 2rem;
+}

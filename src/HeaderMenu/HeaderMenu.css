@@ -1,0 +1,6 @@
+.header-menu {
+    display: flex;
+    margin-left: auto;
+    font-family: 'Titillium Web';
+    gap: 1rem;
+}
