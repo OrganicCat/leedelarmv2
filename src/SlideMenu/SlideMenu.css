@@ -12,7 +12,28 @@
 }
 
 .vertical-line {
-    border-right: 1px solid #000;
     height: 4rem;
+}
+
+.moving-line {
+    border-right: 1px solid #000;
+    height: 2rem;
     width: 4rem;
+    position: relative;
+    top: 0;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 2rem;
+    }
+
+    0% {
+        top: 0;
+    }
 }
