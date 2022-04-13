@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './SlideMenu.css';
 
 function SlideMenu() {
     return (
         <div className="slide-menu">
-            <div className="interactive-icon">About Me</div>
+            <Link to="/"><div className="interactive-icon">About Me</div></Link>
             <div className="vertical-line"><div className="moving-line"></div></div>
-            <div className="interactive-icon">Projects</div>
+            <Link to="/projects"><div className="interactive-icon">Projects</div></Link>
             <div className="vertical-line"><div className="moving-line"></div></div>
             <div className="interactive-icon">Interests</div>
             <div className="vertical-line"><div className="moving-line"></div></div>

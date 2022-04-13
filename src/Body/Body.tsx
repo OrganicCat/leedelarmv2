@@ -1,11 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
+import About from '../About/About';
+import Projects from '../Projects';
 import SlideMenu from '../SlideMenu';
 import './Body.css';
 
 function Body() {
     return (
-        <div>
+        <div className="main-page">
             <SlideMenu></SlideMenu>
-            <div className="montyFont">Here is a test</div>
+            <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+            </Routes>
         </div>
     )
 
